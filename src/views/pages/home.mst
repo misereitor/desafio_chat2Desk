@@ -1,1 +1,10 @@
 {{> header}}
+<h1>Seja bem vindo ao Desafio proposto pela Chat2Desk.</h1>
+<p>Estou grato pela oportunidade podedr fazer parte da empresa e crescer juntos.</p>
+{{^user}}
+<h3>Por gentileza, efetue login para testar a plataforma</h3>
+{{/user}}
+{{#user}}
+<p>Olá, {{user.name}}</p>
+<p>Seu E-mail é {{user.email}}</p>
+{{/user}}

@@ -56,3 +56,5 @@ app.set("view engine", "mst")
 app.set("views", "./src/views/pages")
 
 app.listen(8080 || process.env.PORT, () => console.log("Server rodando na porta 8080"))
+
+module.exports = app
