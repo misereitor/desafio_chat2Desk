@@ -19,11 +19,12 @@ Para instalá-lo em sua máquina faça os comandos a seguir:
 
 #### Atenção
 
-É necessário criar o arquivo .env na raiz do projeto com as informações `
+É necessário criar o arquivo .env na raiz do projeto com as informações
+ ``` bash
 PORT=8080
 DATABASE=mongodb://127.0.0.1:27017/login
 SECRET=123
-` para o projeto funcionar
+``` 
 
 
 E depois acesse no seu navegador o endereço: http://localhost:8080
